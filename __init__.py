@@ -3,6 +3,8 @@ from .get_slips import get_slips_wrap as gs
 from .get_slips import get_slips_vel as gsv #get_slips to use if you have a velocity signal and you want to guarantee no negative sizes.
 from .fit import fit as fit
 from .shapes import shapes
+from .shapes import shapesAVGS
+from .shapes import avgScaledShape
 from .weinerfilter import weinerfilter_wrap as weinerfilter
 from .logbinning import logbinning
 #from .scaling_gui_v3 import scaling_gui #defunct for now
